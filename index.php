@@ -26,9 +26,9 @@
             </div>
             <main>
                 <div class="container  cards-container gap-5">
-                    <div v-for="(item, index) in infoData" :key="index" class="col-3  d-flex flex-grow-1">
-                        <div class="card " style="width: 18rem;">
-                            <img :src="item.poster" class="card-img-top" :alt="item.title">
+                    <div v-for="(item, index) in infoData" :key="index" class="col-3 d-flex ">
+                        <div class="card ">
+                            <img :src="item.poster" class="" :alt="item.title">
                             <div class="card-body">
                                 <p>{{item.genre}}</p>
                                 <h4 class="card-title">{{item.title}}</h4>
@@ -41,7 +41,6 @@
                 </div>
             </main>
         </div>
-        <h1>hello</h1>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
