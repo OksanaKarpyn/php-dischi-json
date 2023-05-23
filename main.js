@@ -3,8 +3,7 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: 'Привіт, Vue!',
-      apiUrl:'/apis/apiDisk.php',
+      apiUrl:'./api/apiDisk.php',
       infoData:'',
     }
 

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    display: block;
+    
+}
+
+
+.wrapper{
+background-color: #1D2D3C;
+}
+.container{
+}
+.img-container{
+    width: 200px;
+}
+.header {
+    padding: 20px 40px;
+    background-color: #112030;
+}
+.img-container {
+}
+.container {
+}
+.row {
+}
+.cards-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+.card {
+    background-color: #112030;
+    color: #fff;
+    text-align: center;
+     flex: 1 1 auto;
+  
+}
+.card-img-top {
+
+}
+.card-body {
+  
+}
+.card-title {
+}
+.card-text {
+
+}
